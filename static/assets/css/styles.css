@@ -38,6 +38,28 @@ h6 {
   color: white;
   font-weight: 300;
 }
+#login-container {
+  height: 100vh;
+  font-weight: 400;
+  color: white;
+  background-image: url(../../image/main-bg.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5%;
+}
+#login-box {
+  border-radius: 5%;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+#login-message {
+  color: red;
+  font-weight: 400;
+}
 #home-page-container {
   background-image: url(../../image/main-bg.jpg);
   position: relative;

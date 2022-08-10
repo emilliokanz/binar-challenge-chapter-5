@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index_express.js"
+    "start": "node login.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,10 +14,12 @@
     "nodemon": "^2.0.19"
   },
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.2.0",
     "chalk": "^5.0.1",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "lodash": "^4.17.21",
-    "bootstrap": "^5.2.0",
     "node-sass": "^7.0.1"
   }
 }
